@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+$darker: #0b0f17;
+$dark: #1e283e;
+$pink: #fb6478;
+$blue: #84d7e8;
+$white: #ffffff;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden !important;
+    font-family: 'Poppins', sans-serif !important;
+    background: rgb(11,15,23);
+    background: linear-gradient(0deg, rgba(11,15,23,1) 35%, rgba(30,40,62,1) 100%);
+    color: $white !important;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+ul {
+    margin-bottom: 0;
+}

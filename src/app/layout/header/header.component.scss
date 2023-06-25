@@ -1,0 +1,40 @@
+@import '../../../styles.scss';
+
+header {
+    .logo {
+        font-size: 25px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            padding: 0 20px 0 20px;
+            &.active {
+                font-weight: 500;
+            }
+            a {
+                padding-bottom: 10px;
+                &:hover {
+                    border-bottom: 2px solid $white;
+                }
+            }
+        }
+    }
+    .contact {
+        background: $blue;
+        color: $darker;
+        font-weight: 500;
+        padding: 10px 40px;
+        border-radius: 25px;
+        &:hover {
+            mix-blend-mode: plus-lighter;
+        }
+    }
+    .login {
+        padding: 20px 30px; 
+        font-weight: 300;
+        i {
+            padding-right: 10px;
+        }
+    }
+}

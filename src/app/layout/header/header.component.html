@@ -1,1 +1,23 @@
-<p>header works!</p>
+<header>
+    <div class="row">
+        <div class="col-2">
+            <div class="logo">
+                <i class="fa-solid fa-life-ring"></i>
+            </div>
+        </div>
+        <div class="col-7">
+            <ul>
+                <li *ngFor="let menu of menus">
+                    <a routerLink="/">{{menu.name}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <a routerLink="/" class="contact">Contact us</a>
+            <a routerLink="/" class="login">
+                <i class="fa-solid fa-key"></i>
+                <span>Login</span>
+            </a>
+        </div>
+    </div>
+</header>
