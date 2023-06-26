@@ -9,10 +9,11 @@ $white: #ffffff;
 body {
     height: 100vh;
     margin: 0;
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
     font-family: 'Poppins', sans-serif !important;
     background: rgb(11,15,23);
     background: linear-gradient(0deg, rgba(11,15,23,1) 35%, rgba(30,40,62,1) 100%);
+    background-attachment:fixed;
     color: $white !important;
 }
 

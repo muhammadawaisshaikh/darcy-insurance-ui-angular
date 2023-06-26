@@ -1,0 +1,22 @@
+.card {
+    border-radius: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &.lg {
+        height: 300px;
+    }
+    &.sm {
+        height: 200px;
+    }
+    .title {
+        background-color: black;
+        color: white;
+        width: max-content;
+        padding: 5px 25px;
+        border-radius: 25px;
+        position: absolute;
+        bottom: 0;
+        left: 25px;
+    }
+}

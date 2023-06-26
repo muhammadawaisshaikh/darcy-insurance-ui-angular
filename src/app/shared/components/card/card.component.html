@@ -1,1 +1,5 @@
-<p>card works!</p>
+<div class="card mb-4" [ngClass]="(size == 'lg') ? 'lg' : 'sm'" 
+    [ngStyle]="{'background-image': 'url(' + image + ')'}"
+>
+    <p class="title">{{title}}</p>
+</div>
