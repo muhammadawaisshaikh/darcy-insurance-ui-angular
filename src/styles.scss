@@ -25,3 +25,17 @@ a {
 ul {
     margin-bottom: 0;
 }
+
+.btn-custom {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 30px;
+    &.pink {
+        background-color: $pink;
+        color: $white;
+    }
+    &.blue {
+        background-color: $blue;
+        color: $darker;
+    }
+}

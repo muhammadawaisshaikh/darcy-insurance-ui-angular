@@ -5,12 +5,14 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SliderComponent } from './slider/slider.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { ExpertsComponent } from './experts/experts.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    SliderComponent
+    SliderComponent,
+    ExpertsComponent
   ],
   imports: [
     CommonModule,
