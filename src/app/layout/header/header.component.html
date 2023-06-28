@@ -1,18 +1,18 @@
 <header>
     <div class="row">
         <div class="col-2">
-            <div class="logo">
+            <div class="logo animate__animated animate__bounceInLeft">
                 <i class="fa-solid fa-life-ring"></i>
             </div>
         </div>
         <div class="col-7">
-            <ul>
+            <ul class="animate__animated animate__bounceInRight">
                 <li *ngFor="let menu of menus">
                     <a routerLink="/">{{menu.name}}</a>
                 </li>
             </ul>
         </div>
-        <div class="col-3">
+        <div class="col-3 animate__animated animate__bounceInUp">
             <a routerLink="/" class="contact">Contact us</a>
             <a routerLink="/" class="login">
                 <i class="fa-solid fa-key"></i>
