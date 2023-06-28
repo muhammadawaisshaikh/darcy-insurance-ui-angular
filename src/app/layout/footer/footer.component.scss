@@ -1,0 +1,43 @@
+@import '../../../styles.scss';
+
+.footer {
+    padding: 7rem 0 0 0;
+
+    .tabs-c {
+        ul {
+            list-style: none;
+            display: flex;
+            padding-left: 0;
+            margin-bottom: 0;
+            li {
+                a {
+                    padding: 10px 30px;
+                    margin-right: 10px;
+                    background: $dark;
+                    border-radius: 25px;
+                    &:hover {
+                        background-color: $white;
+                        color: $darker;
+                    }
+                }
+            }
+        }
+    }
+
+    .list-item {
+        ul {
+            list-style: none;
+            display: flex;
+            padding-left: 0;
+            margin-bottom: 0;
+            li {
+                a {
+                    padding: 10px;
+                    margin-right: 10px;
+                    color: #536284;
+                    text-wrap: nowrap;
+                }
+            }
+        }
+    }
+}

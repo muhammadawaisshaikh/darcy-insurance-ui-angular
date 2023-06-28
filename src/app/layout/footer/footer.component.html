@@ -1,0 +1,55 @@
+<div class="footer">
+    <div class="row">
+        <div class="col-6">
+            <h1>Need Numbers?</h1>
+
+            <div class="tabs-c mt-5">
+                <ul>
+                    <li *ngFor="let tab of tabs">
+                        <a href="#">{{tab}}</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-6">
+                    <div class="form-field">
+                        <label for="country">Enter the country</label>
+                        <input type="text" placeholder="Australia">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-field">
+                        <label for="country">Choose travel dates</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#" class="btn-custom pink mt-4 d-block">Calculate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="list-item mt-5 ps-4" *ngFor="let service of services">
+                <h3>{{service.name}}</h3>
+                <ul class="pt-3">
+                    <li *ngFor="let item of service.list">
+                        <a href="#">{{item}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="col-6">
+            <h6>
+                <i class="fa-solid fa-life-ring"></i>
+                <span class="ps-3">Darcy insurance products</span>
+            </h6>
+        </div>
+        <div class="col-6 text-end">
+            <a href="#"><u>Privacy Policy</u></a>
+        </div>
+    </div>
+</div>
