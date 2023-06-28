@@ -1,0 +1,24 @@
+@import '../../../../styles.scss';
+
+.support {
+    h1 {
+        font-size: 4rem;
+        padding: 2rem 0;
+    }
+    .image-beautify {
+        width: 60%;
+        height: 400px;
+        border-radius: 10rem;
+        display: block;
+        margin: auto;
+    }
+    .service {
+        a {
+            color: $blue;
+            text-decoration: underline;
+        }
+        i {
+            font-size: 30px;
+        }
+    }
+}
